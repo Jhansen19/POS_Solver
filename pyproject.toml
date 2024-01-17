@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "margree-a4"
+version = "0.1.0"
+description = "assignment 4"
+authors = ["mark and jonathan"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "margree_a4"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
